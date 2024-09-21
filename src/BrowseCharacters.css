@@ -1,0 +1,21 @@
+.browse-characters {
+    text-align: center;
+  }
+  
+  .character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .character-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .character-item:hover {
+    transform: scale(1.1);
+    border-color: red;
+  }

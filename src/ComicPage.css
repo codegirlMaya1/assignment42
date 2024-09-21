@@ -1,0 +1,17 @@
+.comic-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .comic-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .comic-card:hover {
+    transform: scale(1.1);
+    border-color: red;
+  }
